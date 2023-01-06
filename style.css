@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 100px;
+  background-color: pink;
+}
+
+.card-img {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.card-img img {
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+.card-trang-thai {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+.btn {
+  border: 0;
+  margin-left: 12px;
+  padding: 10px 14px;
+  background-color: #2374e1;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.friend {
+  background-color: #000;
+}
+
+.btn:hover {
+  opacity: 0.75;
+}
